@@ -1,4 +1,8 @@
 🔗 View Live Dashboard on Tableau Public: [https://public.tableau.com/shared/HMR4D5GG7?:display_count=n&:origin=viz_share_link]
+<<<<<<< HEAD
+=======
+   
+>>>>>>> c504573 (4-commit)
 
 
 Dataset Overview:
@@ -26,29 +30,42 @@ Realized_Profit: The actual profit or loss generated upon selling an asset. (Los
 
 ![Dashboard](Screenshots/Dashboard%201.png)
 
-1. High-Level KPIs & Filters
+Dashboard Overview
+This Tableau dashboard provides a comprehensive, interactive view of a multi-asset trading portfolio. It tracks investment volumes, profitability, and asset allocation across Stocks, Cryptocurrencies, and ETFs over a four-year period, offering clear data-driven insights into trading performance.
 
-Insight: Dashboard ke top par filters (Exchange, Transaction_Type) aur main KPIs (Total Invested Amount: 272M+, Total Profit: 13.6M+) lagaye gaye hain, jo user ko instantly overall portfolio performance ki summary dete hain.
+1. Key Performance Indicators (KPIs) & Filters
 
-2. Investment Trend Years (Bar Chart)
+Total Invested Amount (105.3M+) & Total Profit (13.6M+): These top-level metrics give stakeholders an immediate snapshot of the portfolio's overall scale and success.
 
-Insight: Yeh chart yearly investment volume dikhata hai. Data se clear hai ki 2024 (86.5M) mein sabse zyada investment hui, jiske baad 2025 aur 2023 ka number aata hai.
+Interactive Filters: The dashboard includes slicers for Exchange (Binance, NSE) and Transaction Type (Buy, Sell), allowing users to drill down into specific market platforms and trade behaviors.
 
-3. Investment Trend Month's (Line Chart)
+2. Profit by Asset [Horizontal Bar Chart](Screenshots/Profit%20by%20Asset.png)
 
-Insight: Ek time-series analysis jo monthly activity track karta hai. Isme saaf dikh raha hai ki April (10.7M) aur July (10.5M) mein trading volume apne peak par tha, jo market volatility ya specific investment cycles ko indicate kar sakta hai.
+Insight: This chart ranks the profitability of individual assets. It clearly highlights that traditional blue-chip stocks are the primary profit drivers. L&T (4.8M) and TCS (2.4M) are the top-performing assets, whereas cryptocurrency assets (like Bitcoin, Solana, and Ethereum) contributed the least to the overall realized profit.
 
-4. Profit by Asset (Horizontal Bar Chart)
+3. Portfolio Allocation [Pie Chart](Screenshots/Protfolio%20Allocation.png)
 
-Insight: Yeh portfolio ka sabse critical chart hai. Isne identify kiya ki L&T (4.8M) aur TCS (2.4M) overall sabse zyada profitable assets rahe hain, jabki crypto (Bitcoin, Solana, ATOM) ka profit margin comparetivey chota raha.
+Insight: This visualizes the portfolio's risk management strategy. The massive red segment indicates that the vast majority of capital is allocated to Stocks, with only a minor fraction exposed to volatile assets like Cryptocurrency and ETFs.
 
-5. Portfolio Allocation (Pie Chart)
+4. Profit Trends (Time-Series Analysis)
 
-Insight: Yeh risk management aur asset distribution show karta hai. Portfolio heavily Stocks (261M+) ki taraf tilted hai, jabki Cryptocurrency sirf ek chota fraction (6M+) hold karti hai.
+Profit Trend Years [Line Chart](Screenshots/Profit%20Trend%20Years.png)
 
-6. Profit Trend (Years & Months - Bar Charts)
+: Shows the macro-level profitability over time. The highest profit was secured in 2023 (~4.2M), with a gradual downtrend through 2025 and 2026. (Note: If 2026 is an incomplete year, this explains the sharp drop).
 
-Insight: Yeh charts profitability ka breakdown karte hain. Yearly trend batata hai ki highest realized profit 2023 (4.2M) mein hua. Monthly trend real-world market dynamics show karta hai—jaise January (-36K) aur October (-21K) mein losses hue, jabki May (961K) sabse profitable month raha.
+Profit Trend Month [Connected Scatter/Line](Screenshots/Profit%20Trend%20Month.png)
+
+: Highlights market seasonality. May (1.9M) and June (1.5M) emerged as the most profitable months for liquidating assets, while July (377K) saw the lowest returns.
+
+5. Investment Trends (Volume Analysis)
+
+Investment Trend Years [Bar Chart](Screenshots/Investment%20Trend%20Years.png)
+
+: Tracks the total value of transactions per year. 2023 saw the highest trading activity, closely followed by 2025.
+
+Investment Trend Month [Stacked Bar Chart](Screenshots/Investment%20Trend%20Month.png)
+
+: Breaks down transaction volumes by month. The months of May, April, and August witnessed the highest total trading values, indicating periods of aggressive market participation.
 
 
 
